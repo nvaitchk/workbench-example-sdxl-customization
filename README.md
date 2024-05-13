@@ -3,6 +3,8 @@ This is an [NVIDIA AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/s
 
 Have questions? Please direct any issues, fixes, suggestions, and discussion on this project to the DevZone Members Only Forum thread [here](https://forums.developer.nvidia.com/t/support-workbench-example-project-sdxl-customization/278374/1). 
 
+This repo is forked from https://github.com/NVIDIA/workbench-example-sdxl-customization for teaching purpose.
+
 ## Project Description
 For a short demo and project overview, check out this [video](https://www.youtube.com/watch?v=ntMRzPzSvM4)!
 
