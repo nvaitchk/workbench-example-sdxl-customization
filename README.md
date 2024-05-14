@@ -1,9 +1,7 @@
 # NVIDIA AI Workbench: Introduction
 This is an [NVIDIA AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/) example Project that demonstrates how to customize a Stable Diffusion XL (SDXL) model. This project takes the latest SDXL model and familiarizes it with Toy Jensen via finetuning on a few pictures, thereby teaching it to generate new images which include him when it didn't recognize him previously. Next, we will also enable the user to bring their own custom image data to fine-tune the model on. Users who have [installed AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/) can get up and running with this project in minutes. 
 
-Have questions? Please direct any issues, fixes, suggestions, and discussion on this project to the DevZone Members Only Forum thread [here](https://forums.developer.nvidia.com/t/support-workbench-example-project-sdxl-customization/278374/1). 
-
-This repo is forked from https://github.com/NVIDIA/workbench-example-sdxl-customization for teaching purpose.
+This repo is forked from https://github.com/NVIDIA/workbench-example-sdxl-customization and is modified for teaching purpose.
 
 ## Project Description
 For a short demo and project overview, check out this [video](https://www.youtube.com/watch?v=ntMRzPzSvM4)!
@@ -18,6 +16,11 @@ From there, you'll see how you can fine-tune the model using DreamBooth. We'll u
 * GPU requirements: Any NVIDIA training GPU, tested with 1x NVIDIA A100-80GB
 * NVIDIA driver requirements: Latest driver version
 * Storage requirements: 40GB
+
+## Prerequisites:
+1. Installation of Nvidia AI Workbench. (https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/)
+2. A Github account and an access token.
+3. A Huggingface account and an user access token.
 
 # Quickstart
 If you have NVIDIA AI Workbench already installed, you can use this Project in AI Workbench on your choice of machine by:
